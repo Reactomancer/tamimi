@@ -137,7 +137,10 @@ a:visited {
 
 .product-image {
   aspect-ratio: 0.72;
-  width: 201px;
+  object-fit: auto;
+  object-position: center;
+  width: 200px;
+  height: 200px;
   margin-top: 32px;
 }
 
@@ -158,14 +161,6 @@ a:visited {
   aspect-ratio: 1.19;
   align-items: center;
   padding: 34px 20px 22px;
-}
-
-.promo-label,
-.promo-code,
-.promo-description,
-.promo-button-wrapper,
-.promo-disclaimer {
-  position: relative;
 }
 
 .promo-label {
