@@ -22,6 +22,29 @@ ul {
   padding: 0;
 }
 
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 800px) {
+  header {
+    flex-direction: row-reverse;
+    font-weight: 400;
+    line-height: 125%;
+    gap: 30px;
+  }
+  .container {
+    margin: 60px 110px;
+  }
+  .banner {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+}
+
 .navigation-bar {
   display: flex;
   gap: 15px;
@@ -30,7 +53,7 @@ ul {
   text-transform: capitalize;
 }
 
-.navigation-bar li:last-child {
+.navigation-bar li:last-child a {
   color: #f10d48;
 }
 
@@ -48,4 +71,7 @@ ul {
 
 .banner {
   margin: 20px 0;
+}
+
+.article-title {
 }
