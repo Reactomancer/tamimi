@@ -230,6 +230,7 @@ header {
   justify-content: center;
   font-family: Helvetica, sans-serif;
   height: fit-content;
+  padding: 30px 20px;
 }
 
 .promo-content {
